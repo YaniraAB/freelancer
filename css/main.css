@@ -51,7 +51,7 @@ nav {
   font-size: 32px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  left: 6.5%;
+  left: 21%;
   position: absolute;
   top : 50%;
   transform: translateY(-50%);
@@ -59,7 +59,7 @@ nav {
 
 ul {
   position: absolute;
-  right: 7.5%;
+  right: 21%;
   top : 25%;
 }
 
@@ -86,9 +86,11 @@ ul {
   top: 94px;
 }
 .image-profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   top: 90px;
-  left: 39%;
 }
 
 .title-general {
@@ -104,23 +106,13 @@ ul {
 /*estrella y linea - presentacion*/
 
 .line-one {
-  display: inline-block;
-  width: 110px;
+  display: block;
+  width: 250px;
   height: 5px;
   background-color: #fff;
   position: relative;
-  left: 39%;
-  bottom: 70px;
-}
-
-.line-two {
-  display: inline-block;
-  width: 110px;
-  height: 5px;
-  background-color: #fff;
-  position: relative;
-  left: 43%;
-  bottom: 70px;
+  margin: auto;
+  bottom:30px;
 }
 
 .fa-star {
@@ -128,21 +120,25 @@ ul {
 }
 
 .start-one {
+
+  left: 48.6%;
+  bottom: 59px;
+  background-color: #18BC9C;
+  padding: 10px;
   position: relative;
-  left: 27.3%;
-  bottom: 70px;
+  margin: auto;
 }
 
 /* sub titulo de presentacion*/
 
 .sub-title-presentation {
-  bottom: 60px;
+  bottom: 94px;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: lighter;
-  left: 20%;
-  position: absolute;
+  position: relative;
+  text-align: center;
 }
 
 /*portfolio-section*/
@@ -159,51 +155,45 @@ ul {
   color: #212529;
   font-size: 45px;
   font-family: 'Montserrat', sans-serif;
-  position: absolute;
-  top: 50px;
-  left: 38.5%;
+  position: relative;
+  top: 80px;
+  text-align: center;
 }
 
-.line-three {
-  display: inline-block;
-  width: 110px;
+.line-two {
+  display: block;
+  width: 250px;
   height: 5px;
   background-color: #2C3E50;
-  position: absolute;
-  left: 39%;
-  top: 175px;
-}
-
-.line-four {
-  display: inline-block;
-  width: 110px;
-  height: 5px;
-  background-color: #2C3E50;
-  position: absolute;
-  left: 53%;
-  top: 175px;
+  position: relative;
+  margin: auto;
+  top: 62px;
 }
 
 .start-two {
-  position: absolute;
-  left: 46%;
-  top: 137px;
-  color: #2C3E50;
+
+  left: 48.6%;
+  top: 33px;
+  background-color: #fff;
+  color:  #2C3E50;
+  padding: 10px;
+  position: relative;
+  margin: auto;
 }
 
 /*gallery*/
 
 .gallery-portfolio {
   margin: auto;
-  width: 85%;
   position: relative;
-  top: 210px;
+  top: 25px;
+  width:60%;
 }
 
 .gallery {
   /*outline: 1px solid yellow;*/
   width: 30%;
-  margin: 1.5%;
+  margin: 14px;
   display: inline-block;
 }
 
@@ -225,37 +215,30 @@ ul {
   color: #fff;
   font-size: 45px;
   font-family: 'Montserrat', sans-serif;
-  position: absolute;
-  top: 50px;
-  left: 43.5%;
+  position: relative;
+  top: 100px;
+  text-align: center;
 }
 
 /*linea y estrella-about*/
-.line-five {
-  display: inline-block;
-  width: 110px;
+.line-three {
+  display: block;
+  width: 250px;
   height: 5px;
   background-color: #fff;
-  position: absolute;
-  left: 39%;
-  top: 175px;
-}
-
-.line-six {
-  display: inline-block;
-  width: 110px;
-  height: 5px;
-  background-color: #fff;
-  position: absolute;
-  left: 53%;
-  top: 175px;
+  position: relative;
+  margin: auto;
+  top: 80px;
 }
 
 .start-three {
-  position: absolute;
-  left: 46%;
-  top: 137px;
-  color: #fff;
+
+  left: 48.6%;
+  top: 50px;
+  background-color: #18BC9C;
+  padding: 10px;
+  position: relative;
+  margin: auto;
 }
 /*parrafos-about y botón*/
 
@@ -263,9 +246,9 @@ ul {
   /*outline: 1px solid red;*/
   height: 350px;
   margin: auto;
-  width: 65%;
+  width: 43%;
   position: relative;
-  top: 220px;
+  top: 60px;
 }
 
 .text-left {
@@ -299,7 +282,7 @@ ul {
 .button-download {
   border: 2px solid #fff;
   border-radius: 5px;
-  bottom: 90px;
+  bottom: 80px;
   color: #fff;
   display: inline-block;
   font-family: 'Lato', sans-serif;
@@ -317,54 +300,49 @@ ul {
 .contact-section {
   top: 56px;
   width: 100%;
-  height: 890px;
+  height: 940px;
   background-color: #fff;
   position: relative;
 }
 /*linea y estrella-contact me*/
-.line-seven {
-  display: inline-block;
-  width: 110px;
+.line-four {
+  display: block;
+  width: 250px;
   height: 5px;
   background-color: #2C3E50;
-  position: absolute;
-  left: 39%;
-  top: 175px;
-}
-
-.line-eight {
-  display: inline-block;
-  width: 110px;
-  height: 5px;
-  background-color: #2C3E50;
-  position: absolute;
-  left: 53%;
-  top: 175px;
+  position: relative;
+  margin: auto;
+  top: 62px;
 }
 
 .start-four {
-  position: absolute;
-  left: 46%;
-  top: 137px;
-  color: #2C3E50;
+
+  left: 48.6%;
+  top: 33px;
+  background-color: #fff;
+  color:  #2C3E50;
+  padding: 10px;
+  position: relative;
+  margin: auto;
 }
 
 /*formulario*/
 
 .container-form {
-  outline: 1px solid red;
-  height: 550px;
+  /*outline: 1px solid red;*/
+  height: 600px;
   margin: auto;
-  width: 60%;
+  width: 40%;
   position: relative;
-  top: 240px;
+  top: 70px;
 }
 
 .items-form {
   font-size: 23px;
   font-family: 'Lato', sans-serif;
   color: #868E96;
-  line-height: 2.5;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 input {
@@ -372,17 +350,18 @@ input {
   border-top: none;
   border-left: none;
   border-right: none;
+  width: 100%;
 }
 
 .border-message {
-  padding-top: 130px;
+  padding-top: 160px;
 }
 
 .button-send {
   border: none;
   border-radius: 6px;
   background-color: #18BC9C;
-  bottom: 10px;
+  bottom: 20px;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
