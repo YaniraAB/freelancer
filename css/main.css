@@ -1,3 +1,415 @@
-/*
- * Estilos de tu proyecto
- */
+/* fuentes
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+/*clases generales*/
+
+body {
+  background-color: #fff;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+}
+
+/*clases reusables*/
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.titles-footer {
+
+}
+
+/*nav*/
+
+nav {
+  background-color: #2C3E50;
+  height: 110px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+.logotipo {
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  left: 6.5%;
+  position: absolute;
+  top : 50%;
+  transform: translateY(-50%);
+}
+
+ul {
+  position: absolute;
+  right: 7.5%;
+  top : 25%;
+}
+
+.li-menu {
+
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.items-menu {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+
+.presentation {
+  width: 100%;
+  height: 680px;
+  background-color: #18BC9C;
+  position: relative;
+  top: 94px;
+}
+.image-profile {
+  position: relative;
+  top: 90px;
+  left: 39%;
+}
+
+.title-general {
+
+  color: #fff;
+  font-size: 75px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 53px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/*estrella y linea - presentacion*/
+
+.line-one {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #fff;
+  position: relative;
+  left: 39%;
+  bottom: 70px;
+}
+
+.line-two {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #fff;
+  position: relative;
+  left: 43%;
+  bottom: 70px;
+}
+
+.fa-star {
+  color: #fff;
+}
+
+.start-one {
+  position: relative;
+  left: 27.3%;
+  bottom: 70px;
+}
+
+/* sub titulo de presentacion*/
+
+.sub-title-presentation {
+  bottom: 60px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  left: 20%;
+  position: absolute;
+}
+
+/*portfolio-section*/
+
+.portfolio-section {
+  top: 74px;
+  width: 100%;
+  height: 850px;
+  background-color: #fff;
+  position: relative;
+}
+
+.title-section-blue {
+  color: #212529;
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 50px;
+  left: 38.5%;
+}
+
+.line-three {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #2C3E50;
+  position: absolute;
+  left: 39%;
+  top: 175px;
+}
+
+.line-four {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #2C3E50;
+  position: absolute;
+  left: 53%;
+  top: 175px;
+}
+
+.start-two {
+  position: absolute;
+  left: 46%;
+  top: 137px;
+  color: #2C3E50;
+}
+
+/*gallery*/
+
+.gallery-portfolio {
+  margin: auto;
+  width: 85%;
+  position: relative;
+  top: 210px;
+}
+
+.gallery {
+  /*outline: 1px solid yellow;*/
+  width: 30%;
+  margin: 1.5%;
+  display: inline-block;
+}
+
+.image-portfolio {
+  width: 100%;
+}
+
+/*section-about*/
+
+.about-section {
+  top: 56px;
+  width: 100%;
+  height: 600px;
+  background-color: #18BC9C;
+  position: relative;
+}
+
+.title-section-about {
+  color: #fff;
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 50px;
+  left: 43.5%;
+}
+
+/*linea y estrella-about*/
+.line-five {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  left: 39%;
+  top: 175px;
+}
+
+.line-six {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  left: 53%;
+  top: 175px;
+}
+
+.start-three {
+  position: absolute;
+  left: 46%;
+  top: 137px;
+  color: #fff;
+}
+/*parrafos-about y botón*/
+
+.container-text {
+  /*outline: 1px solid red;*/
+  height: 350px;
+  margin: auto;
+  width: 65%;
+  position: relative;
+  top: 220px;
+}
+
+.text-left {
+  color: #fff;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 0px 3.3%;
+  padding: 0;
+  vertical-align: top;
+  width: 43%;
+}
+
+.text-right {
+  color: #fff;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 0px 3.3%;
+  padding: 0;
+  vertical-align: top;
+  width: 43%;
+}
+
+/*botón download*/
+.fa-download {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.button-download {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  bottom: 90px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  height: 40px;
+  left: 34.5%;
+  padding-top: 10px;
+  position: absolute;
+  text-align: center;
+  width: 220px;
+}
+
+/*contact me - section*/
+
+.contact-section {
+  top: 56px;
+  width: 100%;
+  height: 890px;
+  background-color: #fff;
+  position: relative;
+}
+/*linea y estrella-contact me*/
+.line-seven {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #2C3E50;
+  position: absolute;
+  left: 39%;
+  top: 175px;
+}
+
+.line-eight {
+  display: inline-block;
+  width: 110px;
+  height: 5px;
+  background-color: #2C3E50;
+  position: absolute;
+  left: 53%;
+  top: 175px;
+}
+
+.start-four {
+  position: absolute;
+  left: 46%;
+  top: 137px;
+  color: #2C3E50;
+}
+
+/*formulario*/
+
+.container-form {
+  outline: 1px solid red;
+  height: 550px;
+  margin: auto;
+  width: 60%;
+  position: relative;
+  top: 240px;
+}
+
+.items-form {
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+  color: #868E96;
+  line-height: 2.5;
+}
+
+input {
+  border-bottom: 1px solid #EEEEEE;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.border-message {
+  padding-top: 130px;
+}
+
+.button-send {
+  border: none;
+  border-radius: 6px;
+  background-color: #18BC9C;
+  bottom: 10px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  height: 46px;
+  position: absolute;
+  text-align: center;
+  width: 75px;
+}
+
+/*footer*/
+.footer-general {
+  background-color: #2C3E50;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  height: 385px;
+  width: 100%;
+}
+
+.fotter-left {
+
+}
+
+.fotter-center {
+
+}
+
+.fotter-right {
+
+}
